@@ -1,0 +1,278 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .navigation-wrapper {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+}
+
+.desktop .navigation {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  box-shadow: inset 0px -1px 0px #e4e5e8;
+}
+
+.desktop .frame {
+  display: flex;
+  width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 300px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--gray-50);
+}
+
+.desktop .div {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--gray-50);
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-small-400-font-family);
+  font-weight: var(--body-small-400-font-weight);
+  color: var(--gray-600);
+  font-size: var(--body-small-400-font-size);
+  letter-spacing: var(--body-small-400-letter-spacing);
+  line-height: var(--body-small-400-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-400-font-style);
+}
+
+.desktop .home-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--gray-50);
+  box-shadow: inset 0px -2px 0px #0a65cc;
+}
+
+.desktop .home {
+  font-weight: var(--body-small-500-font-weight);
+  color: var(--primary-500);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-small-500-font-family);
+  font-size: var(--body-small-500-font-size);
+  letter-spacing: var(--body-small-500-letter-spacing);
+  line-height: var(--body-small-500-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-500-font-style);
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.desktop .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-small-500-font-family);
+  font-weight: var(--body-small-500-font-weight);
+  color: var(--gray-900);
+  font-size: var(--body-small-500-font-size);
+  letter-spacing: var(--body-small-500-letter-spacing);
+  line-height: var(--body-small-500-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-500-font-style);
+}
+
+.desktop .nav-link-2 {
+  position: relative;
+  width: 104px;
+  height: 20px;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 24px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: absolute;
+  top: 0;
+  left: 36px;
+}
+
+.desktop .fi-chevron-down {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.desktop .navigation-2 {
+  display: flex;
+  width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 300px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--graywhite);
+}
+
+.desktop .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .logo {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .search {
+  position: relative;
+  width: 668px;
+  height: 50px;
+  background-color: var(--graywhite);
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--gray-100);
+}
+
+.desktop .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  top: 13px;
+  left: 24px;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-medium-400-font-family);
+  font-weight: var(--body-medium-400-font-weight);
+  color: var(--gray-400);
+  font-size: var(--body-medium-400-font-size);
+  letter-spacing: var(--body-medium-400-letter-spacing);
+  line-height: var(--body-medium-400-line-height);
+  white-space: nowrap;
+  font-style: var(--body-medium-400-font-style);
+}
+
+.desktop .button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .primary-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--primary-100);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .primary {
+  color: var(--primary-500);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-button-font-family);
+  font-weight: var(--button-button-font-weight);
+  font-size: var(--button-button-font-size);
+  letter-spacing: var(--button-button-letter-spacing);
+  line-height: var(--button-button-line-height);
+  white-space: nowrap;
+  font-style: var(--button-button-font-style);
+}
+
+.desktop .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: var(--primary-500);
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .primary-2 {
+  color: var(--graywhite);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-button-font-family);
+  font-weight: var(--button-button-font-weight);
+  font-size: var(--button-button-font-size);
+  letter-spacing: var(--button-button-letter-spacing);
+  line-height: var(--button-button-line-height);
+  white-space: nowrap;
+  font-style: var(--button-button-font-style);
+}
